@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{54C2C176-DD51-44CC-9CCE-0219C0C3C4B4}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{F2D0BDE7-6639-498C-ACDA-5049E180999F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{A55F66ED-82A3-4AA4-8EC7-A03CB26D59B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{5C7950C3-8240-48A5-AB07-FEE81A70D434}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{9C8E6A7E-E059-4788-9524-C8A31BEDB50F}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ABOUT.md = Documentation\ABOUT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{F146EE80-B130-43C9-AEE2-40BB762A80CD}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Add Milliseconds", "Add Milliseconds", "{001890FC-8248-4A08-A343-FA6A2152F86D}"
+	ProjectSection(SolutionItems) = preProject
+		Add Milliseconds.xml = Add Milliseconds.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{03208523-2389-444A-BD26-CF4555763D4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add Milliseconds_1", "Add Milliseconds_1\Add Milliseconds_1.csproj", "{0497C90B-DE2A-4002-AD85-2FCE0F40DD33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0497C90B-DE2A-4002-AD85-2FCE0F40DD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0497C90B-DE2A-4002-AD85-2FCE0F40DD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0497C90B-DE2A-4002-AD85-2FCE0F40DD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0497C90B-DE2A-4002-AD85-2FCE0F40DD33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C7950C3-8240-48A5-AB07-FEE81A70D434} = {A55F66ED-82A3-4AA4-8EC7-A03CB26D59B0}
+		{F146EE80-B130-43C9-AEE2-40BB762A80CD} = {54C2C176-DD51-44CC-9CCE-0219C0C3C4B4}
+		{001890FC-8248-4A08-A343-FA6A2152F86D} = {F2D0BDE7-6639-498C-ACDA-5049E180999F}
+		{03208523-2389-444A-BD26-CF4555763D4B} = {001890FC-8248-4A08-A343-FA6A2152F86D}
+		{0497C90B-DE2A-4002-AD85-2FCE0F40DD33} = {03208523-2389-444A-BD26-CF4555763D4B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3872D8F6-4311-4721-9320-940C4A59DCAE}
+	EndGlobalSection
+EndGlobal
