@@ -23,7 +23,7 @@ jobs:
       referenceType: ${{ github.ref_type }}
       repository: ${{ github.repository }}
       owner: ${{ github.repository_owner }}
-      sonarCloudProjectName: SkylineCommunications_SLC-GQIO-CalculatePercentage
+      sonarCloudProjectName: SkylineCommunications_SLC-GQIO-AddMilliseconds
       catalog-identifier: 944fe5ff-a3b7-4d81-acff-b87078866555
       catalog-manifest-path: Documentation/CATALOG_PRIVATE_MANIFEST.yml
       catalog-readme-path: Documentation/CATALOG_PRIVATE_README.md
