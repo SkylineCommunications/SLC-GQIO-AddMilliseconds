@@ -21,7 +21,7 @@
 #   - functiondefinition: If the Catalog item is a DataMiner function definition.
 #   - scriptedconnector: If the Catalog item is a DataMiner scripted connector.
 #   - bestpracticesanalyzer: If the Catalog item is a DataMiner Best Practices Analysis file.
-type: gqioperator
+type: automationscript
 # [Required]
 # The ID of the Catalog item.
 # All registered versions for the same ID are shown together in the Catalog.
